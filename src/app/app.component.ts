@@ -5,9 +5,11 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
-})
+  template: `
+    <h1 class="flex">{{title}}</h1>
+    
+
+  `,})
 export class AppComponent {
   title = 'flexitems';
 }
