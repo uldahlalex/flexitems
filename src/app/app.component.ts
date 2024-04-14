@@ -12,7 +12,7 @@ import {DummyJsonResponse, Product} from "./DummyJsonResponse";
     <div>
       <h6 class="text-3xl flex justify-center">alex' interactive flex item visualizer <a class="text-primary" style="font-size: medium" href="https://github.com/uldahlalex/flexitems" target="_blank">[click here for source code on github]</a></h6>
       <br>
-      <i class="flex justify-center">(scroll down for typical lesson info)
+      <i class="flex justify-center">Slider value =  amount of results to get from DummyJSON API
 
       </i>
 
