@@ -9,9 +9,13 @@ import {DummyJsonResponse, Product} from "./DummyJsonResponse";
   imports: [RouterOutlet, NgForOf, JsonPipe],
   template: `
 
-    <div class="flex justify-center items-center">
-      <h6 class="text-3xl">alex' interactive flex item visualizer</h6>
-      <i>(scroll down for typical lesson info)</i>
+    <div>
+      <h6 class="text-3xl flex justify-center">alex' interactive flex item visualizer <a class="text-primary" style="font-size: medium" href="https://github.com/uldahlalex/flexitems" target="_blank">[click here for source code on github]</a></h6>
+      <br>
+      <i class="flex justify-center">(scroll down for typical lesson info)
+
+      </i>
+
     </div>
     <input (change)="change($event)" type="range" min="3" max="6" value="4" class="range" step="1" />
     <div class="w-full flex justify-between text-xs px-2">
